@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Garamond;
+}
+
+/* Global styles */
+body {
+    font-family: Garamond;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1298a4;
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+    font-family: serif;
+
+}
+header h1 {
+    font-size: 45px;
+font-family: Roboto;  
+color: #333;
+    margin-bottom: 20px;
+}
+header h2 {
+    font-size: 32px;
+
+    margin-bottom: 15px;
+}
+.logo{
+    background-image: url(medic2.png);
+    height: 60px;
+    background-position: center;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50px;
+   
+}
+.logo1{
+    display: block;
+    margin: auto;
+    background-image: url(medics.png);
+    height: 200px;
+    background-position: center;
+    width: 230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.hero {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+.hero h1{
+    font-size: 36px;
+}
+
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+header nav {
+    display: flex;
+    background-color: #2f4d60;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: end;
+   overflow: hidden;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-right: -850px;
+}
+header nav ul li {
+    
+   margin:0 2rem;
+}
+header nav ul li a {
+    
+    color: #f0f0f0;
+}
+header nav ul li a:hover {
+    font-size: 20px;
+   
+}
+header nav ul li a{
+    
+    text-decoration: none;
+}
+
+#services {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.service h3 {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.service p {
+    font-size: 1.1rem;
+}
+#aboutus p{
+    font-size: 14px;
+}
+#aboutus {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#aboutus {
+    background-color: #748898;
+}
+
+#aboutus img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#aboutus h3 {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+#aboutus p {
+    font-size: 1.1rem
+}
+#contact {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
